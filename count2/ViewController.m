@@ -14,6 +14,14 @@
 
 @implementation ViewController
 
+
+-(IBAction)puls{
+    number =number +1;
+    one.text =[NSString stringWithFormat:@"%d",number];
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

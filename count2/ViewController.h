@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+{
+    int number;
+    IBOutlet UILabel *one;
+    
+}
 
+-(IBAction)puls;
 @end
 
